@@ -5,7 +5,19 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     color: var(--text-color);
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 a {
@@ -17,11 +29,53 @@ ul {
     list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
 /* header */
+.nav {
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.header-list-contacts {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+.header-container {
+    display: flex;
+
+}
+
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
@@ -29,6 +83,7 @@ ul {
     letter-spacing: 0.03em;
 
     color: var(--blue-color);
+    margin-right: 94px;
 }
 
 .logo-acent {
@@ -40,7 +95,6 @@ ul {
 .header-link {
 
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -69,6 +123,10 @@ ul {
 /* hero */
 .hero {
     background-color: #C4C4C4;
+}
+
+.container-hero {
+    text-align: center;
 }
 
 .hero-title {
