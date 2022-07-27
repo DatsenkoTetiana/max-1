@@ -157,6 +157,10 @@ ul {
 }
 
 /* about */
+.about-list {
+    display: flex;
+    gap: 30px;
+}
 
 .about-text {
     font-family: 'Roboto';
@@ -171,6 +175,11 @@ ul {
     color: var(--grey-color);
 }
 
+.about-item {
+    /* min-width: 270px;
+    min-height: 48px; */
+}
+
 .about-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -179,6 +188,8 @@ ul {
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    margin-bottom: 10px;
 
 }
 
