@@ -121,8 +121,10 @@ ul {
 
 
 /* hero */
+
 .hero {
-    background-color: #C4C4C4;
+    background-color: #2F303A;
+    padding: 200px 0;
 }
 
 .container-hero {
@@ -130,6 +132,7 @@ ul {
 }
 
 .hero-title {
+    margin-bottom: 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -258,4 +261,59 @@ ul {
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* info */
+.info {
+    padding: 0 0 94px 0;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.info-list {
+    display: flex;
+    gap: 30px;
+}
+
+/* team */
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.team-group {
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+.team-name {
+    margin-bottom: 10px;
+}
+
+.team-img {
+    display: block;
+}
+
+/* footer */
+.footer {
+    padding: 60px 0;
+}
+
+.logo-footer {
+    margin: 0;
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.footer-item {
+    margin-top: 9px;
 }
